@@ -4,7 +4,9 @@
   "description": "Marketing Site for RA",
   "main": "index.html",
   "scripts": {
-    "build": "rm -rf dist/ && mkdir dist/ && cp index.html styles.css dist/"
+    "build": "rm -rf dist/ && mkdir dist/ && cp index.html styles.css dist/",
+    "start": "browser-sync start --server --files .",
+    "dev": "browser-sync start --server --files ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Zaturrby/research-assistent/issues"
   },
-  "homepage": "https://github.com/Zaturrby/research-assistent#readme"
+  "homepage": "https://github.com/Zaturrby/research-assistent#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3"
+  }
 }
