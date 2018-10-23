@@ -1,0 +1,19 @@
+{
+  "name": "research-assistent",
+  "version": "1.0.0",
+  "description": "Marketing Site for RA",
+  "main": "index.html",
+  "scripts": {
+    "build": "mkdir dist && cp index.html dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zaturrby/research-assistent.git"
+  },
+  "author": "RJ Korteschiel, Erik van Zummeren, Tove Oegema",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zaturrby/research-assistent/issues"
+  },
+  "homepage": "https://github.com/Zaturrby/research-assistent#readme"
+}
