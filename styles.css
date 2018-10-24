@@ -76,6 +76,7 @@ h3 {
 .card {
   max-width: 20rem;
   min-width: 15rem;
+  padding-bottom: 4rem;
 }
 
 @media (min-width: 0px) and (max-width: 600px) {
