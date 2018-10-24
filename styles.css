@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'DIN';
+  src: url('DINWeb.woff') format('woff');
+}
+
 body {
   margin: 0;
   background: #2c2c2c;
@@ -19,6 +24,8 @@ p,
 li,
 q {
   color: #919191;
+  font-family: 'DIN';
+  line-height: 1.4;
 }
 
 ul {
@@ -53,6 +60,10 @@ h3 {
 .intro {
   width: 100%;
   padding: 4rem 0;
+}
+
+.intro__text {
+  font-size: 1.5rem;
 }
 
 .cards {
