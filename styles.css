@@ -26,6 +26,16 @@ q {
   color: #919191;
   font-family: 'DIN';
   line-height: 1.4;
+  text-decoration: unset;
+}
+
+a {
+  border-bottom: 0.15rem #919191 solid;
+  margin-bottom: 0.52rem;
+}
+
+a:hover {
+  border-bottom: unset;
 }
 
 ul {
@@ -58,13 +68,18 @@ h3 {
   max-width: 100%;
 }
 
+.siteTitle {
+  display: block;
+  padding-top: 4rem;
+}
+
 .intro {
   width: 100%;
   padding: 4rem 0;
 }
 
 .intro__text {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .cards {
