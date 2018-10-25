@@ -96,9 +96,10 @@ h3 {
   padding-bottom: 4rem;
 }
 
-@media (min-width: 0px) and (max-width: 600px) {
+@media (min-width: 0px) and (max-width: 800px) {
   .card {
-    max-width: 100%;
+    width: 100%;
+    max-width: 30rem;
   }
 }
 
